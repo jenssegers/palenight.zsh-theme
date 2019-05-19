@@ -11,8 +11,13 @@ function git_prompt_info() {
 }
 
 function precmd() {
-    print -rP '
+    if [ -z "$ZSH_THEME_SHOW_HOST" ]; then
+        print -rP '
 $fg[yellow]$(get_pwd)$(git_prompt_info)'
+    else
+        print -rP '
+$fg[cyan]%n@%m: $fg[yellow]$(get_pwd)$(git_prompt_info)'
+    fi
 }
 
 PROMPT='%{$reset_color%}➜  '

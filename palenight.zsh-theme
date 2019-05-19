@@ -1,5 +1,5 @@
 # Oh-my-zsh theme by Jens Segers (jenssegers.com)
-# https://github.com/jenssegers/zsh
+# https://github.com/jenssegers/palenight.zsh
 
 function get_pwd() {
     print -D $PWD

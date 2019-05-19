@@ -1,4 +1,4 @@
-## My personal ZSH theme
+## Material Palenight ZSH theme
 
 ![screenshot](screenshot.png)
 
@@ -10,21 +10,21 @@ Requires you to have [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) inst
 
 ```bash
 wget -O ~/.oh-my-zsh/themes/jenssegers.zsh-theme
-https://raw.githubusercontent.com/jenssegers/zsh/master/jenssegers.zsh-theme
+https://raw.githubusercontent.com/jenssegers/palenight.zsh-theme/master/palenight.zsh-theme
 ```
 
-Then go to your `~/.zshrc` file and set `ZSH_THEME="jenssegers"`
+Then go to your `~/.zshrc` file and set `ZSH_THEME="palenight"`
 
 ### Zplug
 
 ```
-zplug "jenssegers/zsh", as:theme
+zplug "jenssegers/palenight.zsh-theme", as:theme
 ```
 
 ### Antigen
 
 ```
-antigen theme jenssegers/zsh jenssegers
+antigen theme jenssegers/palenight.zsh-theme palenight
 ```
 
 ## Configuration

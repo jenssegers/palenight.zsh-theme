@@ -9,7 +9,7 @@ Requires you to have [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) inst
 ### Manual
 
 ```bash
-wget -O ~/.oh-my-zsh/themes/jenssegers.zsh-theme
+wget -O ~/.oh-my-zsh/themes/palenight.zsh-theme
 https://raw.githubusercontent.com/jenssegers/palenight.zsh-theme/master/palenight.zsh-theme
 ```
 
